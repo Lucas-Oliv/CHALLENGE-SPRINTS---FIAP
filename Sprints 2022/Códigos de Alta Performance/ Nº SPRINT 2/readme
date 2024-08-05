@@ -1,0 +1,52 @@
+Na tarefa implementada no sprint 1 da challenge, o sistema de recebimento periódico de feedbacks de usuários de seu produto para o parceiro, foi projetado e construído para que 1 usuário pudesse “empilhar” mensagens e um cliente da sua equipe realizava o envio de respostas “desempilhando” todas as mensagens daquele específico usuário.
+
+Mudando agora a abordagem para o atendimento de envio de mensagens de vários usuários de sua solução, considere a seguinte forma de implementar esse sistema outro tipo de atendimento. 
+
+Os clientes são cadastrados no seu sistema fazendo com que as informações (nome e id) de cada cliente sejam armazenadas em um vetor de clientes.
+
+Quando um cliente quiser enviar uma mensagem, ele deve usar a sua identificação (id) para que seja permitido o envio. A mensagem com o id e nome do cliente deve então ser inserida na fila de mensagens a serem respondidas. Caso o id do cliente não exista, este deve se cadastrar no sistema (inserindo no vetor de clientes).
+
+A simulação do atendimento das mensagens consiste em apenas retirar da fila a mensagem e escrever na tela de saída o conteúdo da mensagem enviada e as informações do usuário que a enviou.
+
+Para essa 2ª entrega da challenge, a tarefa dessa disciplina é:
+
+•             Implementar a classe Cliente: nome e id devem ser os atributos;
+
+•             Implemente a classe Mensagem: lembrando que junto com o texto da mensagem em si devem ser incluídos id e nome do cliente que enviou a mensagem;
+
+•             Implementar a classe FilaMensagens: que armazena mensagens para serem lidas e respondidas.
+
+A entrega será do projeto JAVA (.zip) a ser feita pelo portal (entrega de trabalho).
+
+Apenas 1 trabalho deve ser entregue por equipe.
+
+A classe Chat que contém o método main() (disponível para realizar testes) que utiliza os tipos de dados solicitados foi elaborado é apresentado no final desta descrição.
+
+public class Chat {
+
+	public static void main(String[] args) {
+
+		Scanner le = new Scanner(System.in);
+		
+		FilaMensagens fila = new FilaMensagens();
+		fila.init();
+		Cliente clientes[] = new Cliente[10];
+		int n=0;
+		int opcao;
+		do {
+			System.out.println(" \n 0- para sair do sistema ");
+			System.out.println(" 1- para enviar mensagem pelo chat");
+			System.out.println(" 2- ler e responder mensagem de chat ");
+			System.out.print("Digite opção: ");
+			opcao = le.nextInt();
+			switch (opcao) {
+			case 0:
+				System.out.println("Finalizado o atendimento");		
+				break;
+			case 1:
+				System.out.print("Digite seu id:");
+				int id = le.nextInt();
+				int i;
+				boolean achou = false;
+				i=0;
+				while (i
