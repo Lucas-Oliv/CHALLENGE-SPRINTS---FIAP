@@ -1,1 +1,15 @@
+Modelo Relacional de Banco de dados.
 
+Após feedback das entregas do 1º. Semestre, fazer os ajustes necessários no modelo lógico de dados e gerar o modelo físico/relacional.
+
+Regras:
+
+Criar o modelo físico de dados baseando-se no modelo lógico de dados revisado, conforme feedback do 1o. semestre.
+O modelo relacional deve apresentar além das restrições (CONTRAINTS) chave primária (PRIMARY KEY), chave estrangeira (FOREIGN KEY) e obrigatória (NOT NULL), pelo menos uma restrição única/exclusiva UNIQUE e uma restrição de verificação/validação CHECK, de acordo com  regras de negócio da solução proposta.
+Todos os nomes devem estar padronizados, conforme nomenclatura trabalhada nas aulas: nomes de tabelas, nome de colunas e nome de restrições.
+É obrigatório utilizar a ferramenta Oracle Data Modeler para construir o MER (modelo relacional). A não utilização dessas ferramentas irá acarretar desconto na nota.
+O arquivo com o modelo DEVE ser entregue em PDF e seguir a seguinte padronização de nomenclatura:
+
+{ANO_TURMA}_2022_MODELO_RELACIONAL_{nome_grupo}.PDF
+
+ Exemplo: 2SIR_2022_MODELO_RELACIONAL_grupoX.PDF
