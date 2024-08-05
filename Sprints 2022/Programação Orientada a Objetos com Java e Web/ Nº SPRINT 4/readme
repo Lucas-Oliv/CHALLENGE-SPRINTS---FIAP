@@ -1,1 +1,12 @@
+Nesta etapa a sua equipe deverá trabalhar com a linguagem Java para WEB. A equipe deverá:
 
+Criar um projeto Java WEB com persistência em banco de dados
+Separar o projeto de acordo com o padrão MVC
+Configurar o Apache Tomcat
+Elaborar as Servlets (camadas de controle)
+Elaborar as views com JSP
+
+A equipe deverá entregar para avaliação:
+
+Projeto java completo
+Script de banco de dados.
