@@ -1,1 +1,42 @@
+SCRIPT DDL PARA IMPLEMENTAÇÃO DO BD: Aqui você deve apresentar o script em linguagem SQL com os comandos DDL para criação do banco de dados proposto pelo projeto apresentado na SPRINT1.
+Você pode gerar o código por meio da ferramenta Oracle SQL Developer, incluindo os comandos DROP TABLE com opção CASCADE CONSTRAINTS.
+REVISE O SCRIPT e garanta que ele esteja apenas com o que é necessário para a criação do Banco de Dados.
 
+Requisitos obrigatórios do script:
+
+O arquivo com o script DDL, deve ser criado na seguinte ordem:
+
+DROP TABLE, com a opção CASCADE CONSTRAINTS no início do arquivo em comentários de bloco.
+CREATE TABLE, contendo colunas, tipo de dado (DATATYPE), tamanho e as restrições NOT NULL, UNIQUE, PRIMARY KEY E CHECK, conforme nós fizemos em nossas aulas.
+No final do arquivo, após os comandos CREATE TABLE, deverão ser criadas as chaves estrangeiras (FOREIGN KEY) com o comando ALTER TABLE
+Todos os nomes devem estar padronizados, conforme as boas práticas trabalhadas nas aulas: nomes de tabelas, nome de colunas e restrições e devem estar de acordo (Tabelas, PKs, FKs e UKs) com os apresentados no projeto do banco de dados.
+O arquivo DEVE ser gravado no formato .SQL. 
+Inserir no início do arquivo, em forma de comentário, o nome e RM de cada componente do grupo (OBRIGATÓRIO). 
+O arquivo entregue deve ser texto com extensão SQL, seguindo obrigatoriamente o seguinte padrão de nomenclatura.
+
+       {ANO_TURMA}_2022_SCRIPT_DDL_{nome_grupo}.SQL
+
+ Exemplo: 2SIR_2022_SCRIPT_DDL_grupoX.PDF
+
+
+
+ATENÇÃO: O script deve executar sem nenhum erro e criar o banco de dados exatamente como proposto pelo projeto. Erros de execução do script quer dizer que o banco de dados não pode ser criado, desta forma este item será zerado.
+
+==> A avaliação será feita levando em conta a qualidade do projeto de banco de dados apresentado, do script SQL e do cumprimento de todas as regras estabelecidas acima.
+
+Arquivo com as instruções DMLs referente a carga de dados para testes.
+Cada tabela deve ser preenchida com no mínimo 10 linhas. As tabelas associativas, devem ser preenchidas com no mínimo 20 linhas.
+A massa de dados, deve ser composta por dados válidos, ou seja, não devem ser inseridos: xxxx,11111,teste, ou similar. Trabalhar com dados fictícios, mas coerentes.
+O arquivo DEVE ser gravado no formato .SQL
+Inserir no início do arquivo, em forma de comentário, o nome e RM de cada componente do grupo (OBRIGATÓRIO). 
+O arquivo DEVE seguir a seguinte padronização de nomenclatura:
+
+       {ANO_TURMA}_2022_SCRIPT_DML_{nome_grupo}.SQL
+
+ Exemplo: 2SIR_2022_SCRIPT_DML_grupoX.PDF
+
+
+
+ATENÇÃO: Os comandos apresentados no script devem ser executados sem erros. Qualquer erro na execução do comando resultará na perda de pontos. Se o erro impactar no resultado de comandos posteriores, pontos também serão descontados.
+
+Todas as regras devem ser cumpridas impreterivelmente. O não cumprimento de qualquer uma delas acarretará no desconto de pontos.
