@@ -1,1 +1,25 @@
+1. Entregar o projeto lógico do banco de dados revisado e:
 
+Normalizado com pelo menos a 3a Forma Normal.
+Use obrigatoriamente especialização e/ou associação (entidade associativa.
+IMPORTANTE: Use a notação de Barker ou Engenharia de Informação
+
+2. Entregar o modelo relacional referente ao projeto lógico revisado. Este é o modelo que contém as tabelas que serão criadas no Banco de Dados. 
+
+Dicas:
+
+Revise o modelo relacional
+Garanta que os nomes das tabelas e dos campos/colunas assim como das constraints estão ok, conforme regras trabalhadas em aula.
+Que não haja inconsistência com o modelo lógico apresentado
+
+3. Entregar o dicionário de dados do projeto criado.
+
+O dicionário de dados de um projeto é parte importante da documentação. Ele contém as tabelas e colunas com suas respectivas descrições entre outras informações que julgar relevante para compreensão delas.
+
+Exemplo:
+
+
+
+#atenção: O objetivo da solução mais o modelo lógico de dados, modelo físico/relacional de dados, dicionário de dados e os dados dos componentes do grupo, devem ser entregues em um único arquivo .PDF, conforme exemplo de nome apresentado.
+
+Nome que deve ser utilizado para entrega: ENTREGA02__DDBD.PDF
