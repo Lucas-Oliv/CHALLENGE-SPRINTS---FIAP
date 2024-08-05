@@ -1,1 +1,13 @@
+A etapa anterior solicitava que a equipe desenvolvesse uma topologia de redes de comunicação utilizando o software Packet Tracer e que pudesse representar parte da rede de comunicação da empresa parceira.
 
+Nesta etapa, a equipe deverá realizar a configuração da topologia para utilização do endereço IPv6 (Internet Protocol versão 6) em conjunto com o endereçamento IPv4 configurado na etapa anterior. 
+A equipe poderá determinar qual faixa de endereço IPv6 irá utilizar na configuração da topologia.  
+
+Além da configuração da topologia da rede para utilização de IPv6 em conjunto com IPv4, a equipe deverá desenvolver um relatório analisando eventuais vulnerabilidades e possíveis ameaças à segurança da informação 
+relacionadas à proposta apresentada pela equipe.
+
+Entregáveis:
+
+1. arquivo com a topologia de rede configurada com IPv4 e IPv6, compactado no formato .zip
+
+2. arquivo com um texto apresentando uma análise da equipe em relação às eventuais vulnerabilidades e possíveis ameaças à segurança da informação relacionados à solução proposta, no formato .pdf.
